@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getx/service/service_2.dart';
 import 'package:getx/unique_id/unique_id.dart';
 
 import 'Dialog/show_dialog.dart';
@@ -6,6 +7,7 @@ import 'bottomsheet/bottom_sheet.dart';
 import 'controller/demo_1.dart';
 import 'increment_task/increment_decrement.dart';
 import 'internationalization/demo_4.dart';
+import 'my_controller/my_controller_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Demo_4(),
+      home: Service_2(),
     );
   }
 }
